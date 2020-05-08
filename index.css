@@ -29,13 +29,6 @@ body {
     text-decoration: white;
 }
 
-.top,
-a:hover {
-    text-decoration: underline;
-    text-decoration-color: red;
-    text-decoration-style: dashed;
-}
-
 /* CSS for the Nav Bar  */
 .navbar {
     display: flex;
@@ -98,4 +91,40 @@ a:hover {
     font-weight: bold;
     letter-spacing: 1px;
     color: white;
+}
+
+/* ---- Main Div for Log in Box -----------  */
+.login {
+    background: red;
+    width: 98%;
+    height: 20vh;
+    margin: 0 auto;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.username,
+.password,
+.Signbutton {
+    text-align: center;
+    width: 50%;
+    height: 5vh;
+    margin: 0 auto;
+}
+
+/* --------------- TIME SECTION CSSSS ---------------- */
+
+.time {
+    background: red;
+    width: 98%;
+    height: 20vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
 }
