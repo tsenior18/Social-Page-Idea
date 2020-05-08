@@ -40,6 +40,7 @@ body{
   .navbar a {
     width: 26%; /* Sets overall with of the A href for the nav bar */
     color: white;
+    font-family: sans-serif;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -48,3 +49,4 @@ body{
     background-color: #ddd;
     color: black;
   }
+  /* Images Section */
