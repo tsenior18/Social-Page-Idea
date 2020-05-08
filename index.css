@@ -1,22 +1,26 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    -webkit-box-sizing: border-box;  /* Brings in KIT For Different Browsers and Devices */
+    -webkit-box-sizing: border-box;
+    /* Brings in KIT For Different Browsers and Devices */
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
     background: slategray;
 }
+
 /* CSS For the Tom Senior Title  */
-.wrapper{
+.wrapper {
     width: 100%;
     margin: 2%;
     text-align: center;
 }
+
 .top a {
     color: white;
     letter-spacing: 1px;
@@ -24,47 +28,74 @@ body{
     font-family: sans-serif;
     text-decoration: white;
 }
-.top, a:hover{
+
+.top,
+a:hover {
     text-decoration: underline;
     text-decoration-color: red;
     text-decoration-style: dashed;
 }
+
 /* CSS for the Nav Bar  */
 .navbar {
     display: flex;
     background-color: #333;
     width: 98%;
     margin: 0 auto;
-    justify-content: center; /* Will center overall Text */
-  }
-  .navbar a {
-    width: 26%; /* Sets overall with of the A href for the nav bar */
+    justify-content: center;
+    /* Will center overall Text */
+}
+
+.navbar a {
+    width: 26%;
+    /* Sets overall with of the A href for the nav bar */
     color: white;
     font-family: sans-serif;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-  }
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     background-color: #ddd;
     color: black;
-  }
-  /* Images Section */
-  .image-section{
-      width: 98%;
-      height: 80vh;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-  }
-  .image-section img{
-      margin-top: 6%;
-      height: 400px;
-      width: 400px;
-      border-radius: 20%;
-  }
-  .image-section img:hover{  /* Set the Properties for when Image is hovered */
-      border: 1px solid blue;
-      transform: scale(1.1);
-  }
+}
+
+/* Images Section */
+.image-section {
+    width: 98%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image-section img {
+    margin-top: 6%;
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+}
+
+.image-section img:hover {
+    /* Set the Properties for when Image is hovered */
+    border: 1px solid blue;
+    transform: scale(1.1);
+}
+
+/* ------ Section for the Log in Page --------------- */
+.login-title {
+    width: 98%;
+    height: 10vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
