@@ -50,3 +50,21 @@ body{
     color: black;
   }
   /* Images Section */
+  .image-section{
+      width: 98%;
+      height: 80vh;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .image-section img{
+      margin-top: 6%;
+      height: 400px;
+      width: 400px;
+      border-radius: 20%;
+  }
+  .image-section img:hover{  /* Set the Properties for when Image is hovered */
+      border: 1px solid blue;
+      transform: scale(1.1);
+  }
