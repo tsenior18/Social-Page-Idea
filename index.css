@@ -22,7 +22,8 @@ body {
     text-align: center;
 }
 
-.top a {
+.top,
+p {
     color: white;
     letter-spacing: 1px;
     font-size: 30px;
