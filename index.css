@@ -66,14 +66,13 @@ body {
 
 .image-section img {
     margin-top: 6%;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 20%;
 }
 
 .image-section img:hover {
-    /* Set the Properties for when Image is hovered */
-    border: 1px solid blue;
+    border: 1px solid white;
     transform: scale(1.1);
 }
 
@@ -95,33 +94,38 @@ body {
 
 /* ---- Main Div for Log in Box -----------  */
 .login {
-    background: red;
     width: 98%;
     height: 20vh;
     margin: 0 auto;
     padding-top: 1%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .username,
 .password,
 .Signbutton {
     text-align: center;
+    border-radius: 5%;
     width: 50%;
     height: 5vh;
     margin: 0 auto;
 }
 
+.Signbutton {
+    background-color: #4CAF50;
+    border: 1px solid red;
+}
+
 /* --------------- TIME SECTION CSSSS ---------------- */
 
 .time {
-    background: red;
     width: 98%;
     height: 20vh;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    padding-top: 2%;
+    text-align: center;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
