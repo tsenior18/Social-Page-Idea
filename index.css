@@ -105,9 +105,9 @@ p {
     justify-content: space-between;
 }
 
-.username,
-.password,
-.Signbutton {
+#username,
+#password,
+.signbutton {
     text-align: center;
     border-radius: 5%;
     width: 50%;
@@ -115,7 +115,7 @@ p {
     margin: 0 auto;
 }
 
-.Signbutton {
+.signbutton {
     background-color: #4CAF50;
     border: 1px solid red;
 }
