@@ -40,9 +40,14 @@ window.addEventListener("load", () => {
 $(".signbutton").click(function () {
     var user = $('#username').val();
     var password = $('#password').val();
+    var reset = '';
     if (user == 'tom' && password == 'tom') {
-        console.log('hello');
+        alert('hello');
+        var usernameReset = $('#username').val('');
+        var passwordReset = $('#password').val('');
     } else {
-        console.log('bye');
+        alert('Re-Enter Credentials');
+        var usernameReset = $('#username').val('');
+        var passwordReset = $('#password').val('');
     }
 });
