@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    /* Brings in KIT For Different Browsers and Devices */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: #12343b;
+    background: #2d545e;
+}
+
+/* CSS For the Tom Senior Title  */
+.wrapper {
+    width: 100%;
+    margin: 2%;
+    text-align: center;
+}
+
+.top,
+p {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: white;
+}
+
+/* CSS for the Nav Bar  */
+.navbar {
+    display: flex;
+    background-color: #333;
+    width: 98%;
+    margin: 0 auto;
+    justify-content: center;
+    /* Will center overall Text */
+}
+
+.navbar a {
+    width: 26%;
+    /* Sets overall with of the A href for the nav bar */
+    color: white;
+    font-family: sans-serif;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: white;
+}
